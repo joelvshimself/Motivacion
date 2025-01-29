@@ -44,20 +44,12 @@ struct DataManager {
     static func getDefaultCategories() -> [CarouselCategory] {
         return [
             CarouselCategory(title: "Metas", items: [
-                CarouselItem(title: "Apple Academy", description: "Estudiar desarrollo avanzado."),
-                CarouselItem(title: "Casa", description: "Tener un lugar para llamar hogar.")
             ]),
             CarouselCategory(title: "Razones", items: [
-                CarouselItem(title: "Vida Corta", description: "Vivir cada día con esfuerzo, inteligencia y determinación."),
-                CarouselItem(title: "Aprovechar Privilegios", description: "Tengo mucho, y no quiero desaprovecharlo.")
             ]),
             CarouselCategory(title: "Hábitos", items: [
-                CarouselItem(title: "Comer Saludable", description: "Mantener una dieta rica en proteína."),
-                CarouselItem(title: "Avanzar con Swift", description: "Mejorar mis habilidades de desarrollo en Swift.")
             ]),
             CarouselCategory(title: "Manifiesto", items: [
-                CarouselItem(title: "Salta y Mejora", description: "Atrévete a dar el salto y mejora en el proceso."),
-                CarouselItem(title: "Come Bien", description: "Disfruta comida rica y nutritiva, sentirse bien importa.")
             ])
         ]
     }
